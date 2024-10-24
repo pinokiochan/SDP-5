@@ -1,0 +1,27 @@
+src
+│
+├─── States
+│     ├── CharacterState.java
+│     ├── NormalState.java
+│     ├── PoweredUpState.java
+│     └── DefeatedState.java
+│
+├─── strategies
+│     ├── FightingStrategy.java
+│     ├── MeleeStrategy.java
+│     ├── RangedStrategy.java
+│     └── MagicStrategy.java
+│
+├─── actions
+│     ├── GameAction.java
+│     ├── AttackAction.java
+│     ├── DefendAction.java
+│     └── HealAction.java
+│
+├─── visitors
+│     ├── EffectVisitor.java
+│     ├── BoostVisitor.java
+│     └── DamageVisitor.java
+│
+└── Character.java
+└── Game.java
